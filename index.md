@@ -1,123 +1,76 @@
 ---
 layout: default
+title: Partheeban Kandasamy
+description: Dog lover, Gym rat, Family man, Team player, Dedicated employee
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## [](#header-2)About
 
-[Link to another page](another-page).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+Result driven, a self-starting collaborative individual with around ten years of proven and well-rounded IT experience in spearheading the management, design, development, implementation, and testing of IT solutions. A recognized leader, adept at prioritizing activities, achieving set objectives and able to propose effective technical solutions for complex business requirements.
 
 * * *
 
-### Here is an unordered list:
+## [](#header-2)Achievements
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+* Excellent problem-solving and communication skills
+* Identified opportunities and executed multiple internal process optimization activities
+* Certifications - **ITIL Foundations V3 – 2016 and VCP DWS 2019**
+* Effective in both self-managed and team environments
+* Proficient in MS Office and VBA
+* Hands-on experience with systems administration, networking and troubleshooting
+* Practiced Agile Scrum and Project Management
+* Experienced programmer in Java/J2EE, C#, SQL, HTML, CSS, JavaScript
 
-### And an ordered list:
+* * *
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+## [](#header-2)Experience
+### [](#header-3)Technical Account Manager Team Lead, VMware - Jan 2014 – Present
+>Awards – Outstanding TAM, 2015, GSS MVP
 
-### And a nested list:
+Responsible for collaborating with large enterprise customers to create technical strategy, drive growth and align product roadmap with customers’ strategic goals for End User Computing
+*	Proven track record of providing trusted strategic advice around Mobility work streams for large and complex deployments of VMware On-Premise and SaaS Enterprise Clients
+*	Addressed technical issues through proactive troubleshooting and serving as a liaison between product experts, support and engineering.
+*	Drove product adoption, business development and company revenue growth by identifying opportunities, developing plans and leading the customer work streams for mobile expansion
+*	Managed projects through analyzing customer requirements, developing project structure and mobilizing internal AirWatch teams to fulfill customer needs
+*	Assessed existing infrastructure and reviewed implementation plans for best practices to provide recommendations for apt solutions that address customer’s business cases.
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+#### [](#header-4)Internal Projects at VMware
+Conceptualized and managed multiple internal process development activities to improve productivity across the extended North America team
+*	Report Automation – Enhancement to the status reports save at an average 5 hours per week per resource
+*	SME team – Managed a team of SMEs and facilitate mediums for the knowledge to be easily tapped by our global teams
+*	Boot camp training – Enabled new team members to hit the ground running and get up to speed on the product
+*	Lab availability – Implemented hands-on static labs that are in use by the SME and the training teams
+*	Designing Product usage trackers – Enabled Product and Marketing to analyze current product adoption across Customer base
 
-### Small image
+### [](#header-3)Software Development Lead, Infinite Energy, Inc. - May 2013 – Dec 2013
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+Supervised and worked as a team member to build an intranet portal for the Infinite Energy employees using SharePoint
+*	Held concise daily scrum meetings to ensure that the team is tracking on-time delivery of the product
+*	Proposed and presented innovative solutions to the Management regarding project-related queries
+*	Reviewed team members’ performance to identify areas for improvement and provide constructive feedback
+*	Programmed SharePoint-hosted and Provider-hosted Apps for various functionalities
 
-### Large image
+### [](#header-3)Student Assistant, University of Florida - J. Wayne Reitz Union - May 2012 - April 2013
+>Awards – Outstanding Student Employee of the year, 2013
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+Gathered business requirements, designed and developed database solutions using MS Access and MSSQL
+*	Worked with the Director of Operations to conceptualize and built a new inventory tracking system for the Operations Department of Reitz Union
 
+### [](#header-3)Senior Software Developer, Tata Consultancy Services Ltd. - Nov 2008 - Dec 2011
+>Certifications – Sun Certified Java Programmer
 
-### Definition lists can be used with HTML syntax.
+Worked on several projects that used Client/Server architecture performing requirement gathering, design, development, unit testing, implementation and maintenance
+*	Focused on re-engineering and re-designing Kiosk and Web Check-In applications for Hawaiian Airlines
+*	Implemented Agile Scrum Methodology and functioned as the Scrum Master for an eight-member team
+*	Performed a Technical Lead role in the Architecture Board working on installations and configuration of Quality Management Tools (Hudson, Sonar) to upkeep the process and quality adherence for various Projects
+*	Developed secure web portal that enabled the Orissa state government transition from paper records to electronic records
+*	Built a matrix based workflow engine that can be customized to accommodate any workflow changes without major changes to the core logic and UI
+*	Co-Inventor & Developer of the patented “Data Audit module for application software” (US9189356 B2)
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+* * *
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+## [](#header-2)Education
+*	Masters in Information Systems & Operations Management, University of Florida 	(GPA 3.88/4)   Dec ‘13
+>Recognized for Academic Excellence by Beta Gamma Sigma and Alpha Iota Delta
 
-```
-The final element.
-```
+*	Bachelors in Electronics and Communication Engineering, Madras Institute of Technology	May ‘08
