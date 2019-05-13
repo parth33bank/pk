@@ -1,54 +1,50 @@
 ---
 layout: default
 title: Partheeban Kandasamy
-description: Dog lover, Gym rat, Family man, Team player, Dedicated employee
+description: Unassuming go getter, Love Dogs, Disciplined through Fitness, Family man, Team player
 ---
 
 ## [](#header-2)About
 
-Result driven, a self-starting collaborative individual with around ten years of proven and well-rounded IT experience in spearheading the management, design, development, implementation, and testing of IT solutions. A recognized leader, adept at prioritizing activities, achieving set objectives and able to propose effective technical solutions for complex business requirements.
+With over 10 years of IT experience working in different roles, I’ve come to realize that I’m passionate towards working closely with technology, addressing customer challenges and business needs with great tools and products. 
 
 * * *
 
 ## [](#header-2)Achievements
 
-* Excellent problem-solving and communication skills
-* Identified opportunities and executed multiple internal process optimization activities
-* Certifications - **ITIL Foundations V3 – 2016 and VCP DWS 2019**
-* Effective in both self-managed and team environments
-* Proficient in MS Office and VBA
-* Hands-on experience with systems administration, networking and troubleshooting
-* Practiced Agile Scrum and Project Management
-* Experienced programmer in Java/J2EE, C#, SQL, HTML, CSS, JavaScript
+* Launched an automation tool for VMware Consultants which increases customer engagement time by freeing up 5 hours per resource per week from status reporting
+* Launched a BI tool for VMware Product Managers and Marketing to understand customer adoption and analyze trends across industries and market segments
+*	Designed and Launched a set of tools that help Consultants engage and assess customer readiness on various aspects of technology proficiency, process maturity and team synergy 
+*	MVP, Global Support and Services for exceptional customer service and for contributions towards building labs, training programs and leading the SME team
+*	Awarded the Outstanding Student Employee of the year, 2013 at UFL for designing and building an inventory management tool
+*	Co-Inventor & Developer of the patented “Data Audit module for application software” (US9189356 B2)
+* Recognized for Academic excellence by Beta Gamma Sigma (Business honor society) and Alpha Iota Delta (Information Systems)
 
 * * *
 
 ## [](#header-2)Experience
-### [](#header-3)Technical Account Manager Team Lead, VMware - Jan 2014 – Present
->Awards – Outstanding TAM, 2015, GSS MVP
+### [](#header-3)Technical Account Manager Team Lead, VMware - June 2018 – Present
 
-Responsible for collaborating with large enterprise customers to create technical strategy, drive growth and align product roadmap with customers’ strategic goals for End User Computing
-*	Proven track record of providing trusted strategic advice around Mobility work streams for large and complex deployments of VMware On-Premise and SaaS Enterprise Clients
-*	Addressed technical issues through proactive troubleshooting and serving as a liaison between product experts, support and engineering.
-*	Drove product adoption, business development and company revenue growth by identifying opportunities, developing plans and leading the customer work streams for mobile expansion
-*	Managed projects through analyzing customer requirements, developing project structure and mobilizing internal AirWatch teams to fulfill customer needs
-*	Assessed existing infrastructure and reviewed implementation plans for best practices to provide recommendations for apt solutions that address customer’s business cases.
+Lead a team of Account Managers focused on Cloud solutions for large enterprise customers to create technical strategy, drive growth and align product roadmap with customers’ strategic goals for End User Computing 
+*	Drive product adoption, business development and company revenue growth by identifying opportunities, developing Success plans and leading customer workstreams for mobile expansion
+*	Mentor team members and influence engagement strategies for large and complex deployments of VMware Enterprise Clients
 
-#### [](#header-4)Internal Projects at VMware
-Conceptualized and managed multiple internal process development activities to improve productivity across the extended North America team
-*	Report Automation – Enhancement to the status reports save at an average 5 hours per week per resource
-*	SME team – Managed a team of SMEs and facilitate mediums for the knowledge to be easily tapped by our global teams
-*	Boot camp training – Enabled new team members to hit the ground running and get up to speed on the product
-*	Lab availability – Implemented hands-on static labs that are in use by the SME and the training teams
-*	Designing Product usage trackers – Enabled Product and Marketing to analyze current product adoption across Customer base
+### [](#header-3)Product Specialist, Technical Account Management, VMware - Jan 2014 – Jun 2018
+>Awards – Global Support and Services MVP 2015
+
+Collaborate with large enterprise customers to identify needs, prioritize solutions, formulate technical strategy and aligning product road map with customers’ strategic goals
+*	Serve as SME with strong knowledge for product, networking and third-party components and develop strategy to drive customer adoption 
+*	Identify new product requirements, feature gaps and work with Developers, Sales and Marketing to drive customer satisfaction and solve customer issues 
+*	Influence Product Roadmap by gathering product usage data, analyze adoption trends and study competitive landscape
+*	Create presentations, demos and document features to train internal stakeholders & customers (ex: Guides, Release Notes)
+*	Assessed existing infrastructure and reviewed implementation plans for best practices to provide recommendations for apt solutions that address customer’s business cases
 
 ### [](#header-3)Software Development Lead, Infinite Energy, Inc. - May 2013 – Dec 2013
 
 Supervised and worked as a team member to build an intranet portal for the Infinite Energy employees using SharePoint
-*	Held concise daily scrum meetings to ensure that the team is tracking on-time delivery of the product
-*	Proposed and presented innovative solutions to the Management regarding project-related queries
+*	Scrum Master responsible for daily scrum meetings to ensure that the team is tracking on-time delivery of the product 
+*	Translate customer requirements to user stories in JIRA and engage development team to explain client use-cases, understand technical difficulties, develop acceptance criteria and continuously improve software features 
 *	Reviewed team members’ performance to identify areas for improvement and provide constructive feedback
-*	Programmed SharePoint-hosted and Provider-hosted Apps for various functionalities
 
 ### [](#header-3)Student Assistant, University of Florida - J. Wayne Reitz Union - May 2012 - April 2013
 >Awards – Outstanding Student Employee of the year, 2013
@@ -59,13 +55,21 @@ Gathered business requirements, designed and developed database solutions using 
 ### [](#header-3)Senior Software Developer, Tata Consultancy Services Ltd. - Nov 2008 - Dec 2011
 >Certifications – Sun Certified Java Programmer
 
-Worked on several projects that used Client/Server architecture performing requirement gathering, design, development, unit testing, implementation and maintenance
+Worked on multiple projects that used Client/Server architecture performing requirement gathering, design, development, unit testing, implementation and maintenance
 *	Focused on re-engineering and re-designing Kiosk and Web Check-In applications for Hawaiian Airlines
 *	Implemented Agile Scrum Methodology and functioned as the Scrum Master for an eight-member team
 *	Performed a Technical Lead role in the Architecture Board working on installations and configuration of Quality Management Tools (Hudson, Sonar) to upkeep the process and quality adherence for various Projects
 *	Developed secure web portal that enabled the Orissa state government transition from paper records to electronic records
-*	Built a matrix based workflow engine that can be customized to accommodate any workflow changes without major changes to the core logic and UI
+*	Built a customizable array based workflow engine to accommodate any workflow changes without any development efforts
 *	Co-Inventor & Developer of the patented “Data Audit module for application software” (US9189356 B2)
+
+* * *
+
+## [](#header-2)Certifications
+*	University of Washington - Software Product Management 2019 (In Progress)
+*	Grow with Google Challenge Scholarship – Android Developer
+*	VCP – DW 2019, VMware vSphere 6.5 Foundations
+*	Certified in ITIL Foundations V3– 2016 
 
 * * *
 
