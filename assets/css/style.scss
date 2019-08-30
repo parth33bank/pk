@@ -3,10 +3,24 @@
 
 @import "{{ site.theme }}";
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 1rem; margin-bottom: 0.5rem; font-weight: normal; color: #159957; }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  color: #159957;
+}
 
 .menu {
     color: #fff;
     text-align: center;
     padding: 2rem 1rem;
+}
+
+body {
+  background-color: #ededed;
+}
+
+.darkmode {
+  background-color: #3b3b3b;
+  color: #fffefe;
 }

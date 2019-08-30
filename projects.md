@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: portfolio
 title: Partheeban Kandasamy
-description: Unassuming go getter, Love Dogs, Disciplined through Fitness, Family man, Team player
+description: Expert Generalist, Passionate about Technology
 ---
 
 ## [](#header-2)Projects

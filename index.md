@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Partheeban Kandasamy
-description: Unassuming go getter, Love Dogs, Disciplined through Fitness, Family man, Team player
+description: A Product Manager in training for 10 years
 ---
 
 ## [](#header-2)Home
