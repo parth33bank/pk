@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: contact
 title: Partheeban Kandasamy
 description: Call me PK
 ---

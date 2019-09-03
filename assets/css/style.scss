@@ -6,8 +6,21 @@
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  font-weight: normal;
+  font-weight: 200;
+  font-family: 'Manjari', sans-serif;
   color: #159957;
+}
+
+header {
+  font-family: 'Manjari', sans-serif;
+  font-weight: 300;
+}
+
+main {
+  background-color: #ededed;
+  font-family: 'Manjari', sans-serif;
+  font-weight: 100;
+  height: 100vh;
 }
 
 .menu {
@@ -16,11 +29,54 @@
     padding: 2rem 1rem;
 }
 
-body {
-  background-color: #ededed;
-}
-
 .darkmode {
   background-color: #3b3b3b;
   color: #fffefe;
+}
+
+.socials {
+  margin-top: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.socials__item {
+    display: inline-block;
+    position: relative;
+    margin-left: 2px;
+    width:40px;
+    height: 40px;
+}
+
+.socials__item__link {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 1;
+    color: #132930;
+    background: rgba(255,255,255,.8);
+}
+
+.socials__item__link svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%,-52%);
+    -o-transform: translate(-50%,-52%);
+    -ms-transform: translate(-50%,-52%);
+    -webkit-transform: translate(-50%,-52%);
+    transform: translate(-50%,-52%);
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+.svg-inline--fa.fa-w-9 {
+    width: .5625em;
 }
