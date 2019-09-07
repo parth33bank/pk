@@ -3,6 +3,50 @@
 
 @import "{{ site.theme }}";
 
+//Main Layout for the pages
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Manjari', sans-serif;
+  font-weight: 100;
+  height: 100%;
+}
+
+header.page-header {
+  font-weight: 400;
+  padding: 2em 0em;
+  color: #FFFFFF;
+}
+
+main {
+  background-color: #ededed;
+  overflow: auto;
+}
+
+.site-footer {
+  text-align: center;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/assets/images/bg/bg.jpg");
+
+  /* Full height */
+  height: 25%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.darkmode {
+  background-color: #3b3b3b;
+  color: #fffefe;
+}
+//Cosmetics for the pages
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -11,29 +55,13 @@
   color: #159957;
 }
 
-header {
-  font-family: 'Manjari', sans-serif;
-  font-weight: 300;
-}
-
-main {
-  background-color: #ededed;
-  font-family: 'Manjari', sans-serif;
-  font-weight: 100;
-  height: 100vh;
-}
-
 .menu {
     color: #fff;
     text-align: center;
     padding: 2rem 1rem;
 }
 
-.darkmode {
-  background-color: #3b3b3b;
-  color: #fffefe;
-}
-
+//Contacts and Socials
 .socials {
   margin-top: 15px;
   margin: 10px;
@@ -79,4 +107,114 @@ main {
 }
 .svg-inline--fa.fa-w-9 {
     width: .5625em;
+}
+
+//Image effects for projects from https://w3bits.com/labs/css-image-hover-zoom/
+.img-hover-zoom {
+    background: #222f3e;
+    height: auto;
+    margin: 0.05em;
+    width: 33%;
+    float: left;
+    overflow: hidden;
+    border-radius: .5em;
+    border: 5px solid #222f3e;
+}
+
+/* Blur-zoom Container */
+.img-hover-zoom--blur img {
+  transition: transform 1s, filter 2s ease-in-out;
+  filter: blur(2px);
+  transform: scale(1.3);
+}
+
+/* The Transformation */
+.img-hover-zoom--blur:hover img {
+  filter: blur(0);
+  transform: scale(1.1);
+}
+
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform 1s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+  transform: scale(1.3);
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+/* Brightness-zoom Container */
+.img-hover-zoom--brightness img {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+
+/* The Transformation */
+.img-hover-zoom--brightness:hover img {
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
+
+/* Slow-motion Zoom Container */
+.img-hover-zoom--slowmo img {
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  transform: scale(1.1);
+  filter: brightness(150%);
+}
+
+/* The Transformation */
+.img-hover-zoom--slowmo:hover img {
+  filter: brightness(100%);
+  transform: scale(3);
+}
+
+// Team & About
+/* Three columns side by side */
+.bg-img {
+  /* The image used */
+  background-image: url("/assets/images/about/profile.jpg");
+  margin: 0 auto;
+
+  /* Control the height of the image */
+  height: 100%;
+  max-width: 64rem;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 400px;
+  padding: 16px;
+  background-color: grey;
+}
+
+//Cosmetics for the pages
+.contact-name h1, .contact-tagline h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: light;
+  font-family: 'Manjari', sans-serif;
+  color: #159957;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
