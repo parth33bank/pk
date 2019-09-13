@@ -1,7 +1,8 @@
 ---
 layout: portfolio
 title: Partheeban Kandasamy
-description: Expert Generalist, Passionate about Technology
+description: Expert Generalist, Passionate about Tech
+projectsselected: selected
 ---
 
 ## [](#header-2)Projects

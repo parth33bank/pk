@@ -23,25 +23,23 @@
   </head>
 
   <body>
-    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
-
-    <header class="page-header bg" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-      <!-- <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> -->
-      {% endif %}
-      {% if site.show_downloads %}
-      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-      <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-
-      {% include menu.html %}
+    <header class="pk-header" role="banner">
+      {% include header.html %}
     </header>
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-    </main>
+    <div class="page-content">
+      <div class="bg scoot-300">
+        <div class="bg_overlay"></div>
+      </div>
+
+      <main id="content" class="content-container" role="main">
+        <div class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</div>
+
+        <div class="main-content">
+          {{ content }}
+        </div>
+      </main>
+    </div>
 
     <footer class="site-footer">
       {% if site.github.is_project_page %}

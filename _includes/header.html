@@ -1,0 +1,13 @@
+<div id="headline" class="headline">
+  <span class="projectname">{{ page.title | default: site.title | default: site.github.repository_name }}</span>
+</div>
+
+<div id="menu" class="menu">
+  <a href="/" class="menuitem {{ page.defaultselected }}">Home</a>
+  <span class="seperator">.</span>
+  <a href="/projects" class="menuitem {{ page.projectsselected }}">Projects</a>
+  <span class="seperator">.</span>
+  <a href="/about" class="menuitem {{ page.aboutselected }}">About</a>
+  <span class="seperator">.</span>
+  <a href="/getintouch" class="menuitem {{ page.contactselected }}">Contact</a>
+</div>
