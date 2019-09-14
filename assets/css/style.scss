@@ -164,6 +164,17 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  transform: scale(1);
+  transition: transform 1s, filter 2s ease-in-out;
+}
+
+.content-container:hover .bg-img {
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 1s, filter 2s ease-in-out;
 }
 
 /* Some left and right padding inside the container */
@@ -171,7 +182,7 @@ main {
   float: right;
   height: inherit;
   max-width: 400px;
-  padding: 16px;
+  padding: 2rem;
   background-color: white;
 }
 
@@ -198,7 +209,7 @@ main {
 .contact-container {
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
 }
 .socials {
   margin-top: 15px;
