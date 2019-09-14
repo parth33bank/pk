@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Partheeban Kandasamy
-description: A Product Manager in training for 10 years
+description: A Product Manager in making...
 ---
 
 ## [](#header-2)Home
