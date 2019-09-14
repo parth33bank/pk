@@ -3,6 +3,7 @@ layout: contact
 title: Partheeban Kandasamy
 description: Call me PK
 contactselected: selected
+bgurl: bg4.jpg
 ---
 
 ## [](#header-2)Contact Me

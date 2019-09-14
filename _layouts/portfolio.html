@@ -29,26 +29,35 @@
     </header>
 
     <div class="page-content">
-      <div class="bg scoot-300">
+      <div class="bg scoot-300" style="background-image: url(/assets/images/bg/{{page.bgurl}})">
         <div class="bg_overlay"></div>
       </div>
 
       <main id="content" class="content-container" role="main">
+        <div class="project-title">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
         <div class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</div>
 
         <div class="main-content">
           {{ content }}
 
           <div class="project-container">
-            <div class="img-hover-zoom img-hover-zoom--blur">
-              <img src="/assets/images/bg1.jpg" alt="This zooms-in really well and smooth">
-            </div>
-            <div class="img-hover-zoom img-hover-zoom--colorize">
-              <img src="/assets/images/bg2.jpg" alt="This zooms-in really well and smooth">
-            </div>
-            <div class="img-hover-zoom img-hover-zoom--brightness">
-              <img src="/assets/images/bg3.jpg" alt="This zooms-in really well and smooth">
-            </div>
+
+          {% for member in site.data.projects %}
+
+            <article class="post">
+              <div class="post_image_holder {{ member.imagestyle }}">
+          			<div class="post_image " style="background-image: url(/assets/images/projects/{{member.projectimage}})"></div>
+          		</div>
+
+          		<div class="post_content_holder">
+                <div class="post_content">
+          				<h2 class="post_title"><a href="/project/write-it-down">{{ member.name }}</a></h2>
+          				<p class="post_subtitle">Branding design</p>
+          				<p class="post_description">Personal lets you show off your projects right here on the home page, with an engaging hover effect to grab the attention of your visitors.</p>
+            		</div>
+              </div>
+            </article>
+          {% endfor %}
           </div>
 
         </div>

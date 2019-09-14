@@ -3,6 +3,7 @@ layout: portfolio
 title: Partheeban Kandasamy
 description: Expert Generalist, Passionate about Tech
 projectsselected: selected
+bgurl: bg3.jpg
 ---
 
 ## [](#header-2)Projects

@@ -3,6 +3,7 @@ layout: default
 title: Partheeban Kandasamy
 description: A Product Manager in the making...
 defaultselected: selected
+bgurl: bg2.jpg
 ---
 
 ## [](#header-2)Home

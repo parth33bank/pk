@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Partheeban Kandasamy
+title: Unassuming go getter
 description: Unassuming go getter
 aboutselected: selected
+bgurl: bg1.jpg
 ---
 
 ## [](#header-2)About

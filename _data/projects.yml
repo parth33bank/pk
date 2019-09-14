@@ -1,0 +1,19 @@
+- name: Eric Mill
+  description: konklone
+  projectimage: bg1.jpg
+  imagestyle: hover-zoom--blur
+
+- name: Parker Moore
+  description: parkr
+  projectimage: bg2.jpg
+  imagestyle: hover-zoom--colorize
+
+- name: Liu Fengyun
+  description: liufengyun
+  projectimage: bg3.jpg
+  imagestyle: hover-zoom--brightness
+
+- name: PK
+  description: liufengyun
+  projectimage: bg4.jpg
+  imagestyle: hover-zoom--colorize
