@@ -38,7 +38,7 @@ main {
 }
 
 .emphasis {
-  font-size: 1.5em;
+  font-size: 2rem;
   font-weight: 400;
   display: inline-block;
   color: #0e9452;
@@ -56,7 +56,7 @@ main {
 .menu {
   float: right;
   display: block;
-  margin: 0.7rem 0;
+  margin: 0.5rem 0;
 }
 
 .menuitem {
@@ -65,7 +65,7 @@ main {
 }
 
 .seperator {
-  color: #fff;
+  color: #fff0;
   padding: 0rem 2rem;
 }
 
@@ -79,21 +79,37 @@ main {
   .pk-header {
     text-align: center;
     padding: 0px;
+    background-color: #4c4c4ce8;
   }
 
   .menu {
     float: none;
     display: block;
     margin: 0;
-    background-color: beige;
+    background-color: #8e8e8e8f;
+    color: #fff;
+  }
+
+  .menuitem {
+    color: #ffffffe8;
+  }
+
+  .pk-header .headline a {
+    color: #ffffffe8;
   }
 
   .selected {
+    color: #54ff63d6;
     font-size: 1.1rem;
   }
 
   .seperator {
     padding: 0rem 0.5rem;
+  }
+
+  .emphasis {
+    color: #54ff63d6;
+    font-size: 2rem;
   }
 }
 
@@ -562,7 +578,7 @@ main {
 .landing-container {
   width:100%;
   min-height: 100%;
-  background-image: url(/assets/images/bg/bg1.jpg);
+  //background-image: url(/assets/images/bg/bg1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

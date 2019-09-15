@@ -1,19 +1,23 @@
 - name: Eric Mill
-  description: konklone
+  subtitle: xyz
+  description: Personal lets you show off your projects right here on the home page, with an engaging hover effect to grab the attention of your visitors.
   projectimage: bg1.jpg
   imagestyle: hover-zoom--blur
 
 - name: Parker Moore
-  description: parkr
+  subtitle: xyz
+  description: Personal lets you show off your projects right here on the home page, with an engaging hover effect to grab the attention of your visitors.Personal lets you show off your projects right here on the home page, with an engaging hover effect to grab the attention of your visitors.
   projectimage: bg2.jpg
   imagestyle: hover-zoom--colorize
 
 - name: Liu Fengyun
+  subtitle: xyz
   description: liufengyun
   projectimage: bg3.jpg
   imagestyle: hover-zoom--brightness
 
 - name: PK
+  subtitle: xyz
   description: liufengyun
   projectimage: bg4.jpg
   imagestyle: hover-zoom--colorize

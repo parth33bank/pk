@@ -3,7 +3,7 @@ layout: about
 title: Unassuming go getter
 description: Unassuming go getter
 aboutselected: selected
-bgurl: bg1.jpg
+bgurl: bg2.jpg
 ---
 
 ## [](#header-2)Summary
