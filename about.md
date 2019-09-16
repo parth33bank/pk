@@ -1,9 +1,9 @@
 ---
 layout: about
-title: Unassuming go getter
-description: Unassuming go getter
+title: Over 10 years in tech
+description: Unassuming go getter, Team player, Change agent
 aboutselected: selected
-bgurl: bg2.jpg
+bgurl: seattleview.jpg
 ---
 
 ## [](#header-2)Summary

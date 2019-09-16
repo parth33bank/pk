@@ -1,13 +1,9 @@
 ---
-layout: default
+layout: landing
 title: Partheeban Kandasamy
-description: A Product Manager in the making...
+description: Expert Generalist, Quick Learner, Your Next Product Manager
 defaultselected: selected
-bgurl: bg1.jpg
+bgurl: cloud.jpg
 ---
 
-## [](#header-2)About
-
-Love Dogs, Disciplined through Fitness, Family man, Team player
-
-With over 10 years of IT experience working in different roles, I’ve come to realize that I’m passionate towards working closely with technology, addressing customer challenges and business needs with great tools and products.
+[partheeban.kandasamy@gmail.com](mailto:Partheeban.Kandasamy@gmail.com?subject=Interested in your work)

@@ -1,11 +1,15 @@
 - name: Projects
-  description: parkr
+  description: All the Projects that I've been a part of
   linkurl: projects
 
 - name: About
-  description: liufengyun
+  description: Me, Myself and I
   linkurl: about
 
 - name: Contact
-  description: liufengyun
+  description: Get in touch
   linkurl: getintouch
+
+- name: Blog
+  description: My thoughts
+  linkurl: wip
