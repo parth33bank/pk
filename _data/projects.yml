@@ -1,0 +1,31 @@
+- name: Work Insights
+  subtitle: We aim to make your employees your biggest differentiator
+  description: Our product integrates with existing datasource to capture various employee metrics and uses machine learning to find trends, anomalies which helps HRs and Managers to visualise employee engagement and sentiment while getting proactive recommendations to improve company culture and management style which leads to better retention and employee experience.
+  projectimage: stones.jpg
+  imagestyle: hover-zoom--blur
+  projecturl: #
+  newtab:
+
+- name: UAG Monitor (WIP)
+  subtitle: All inclusive web-app to manage UAGs
+  description: An aggregated view of various metrics that help an Admin manage multiple VMware UAG appliances configured for Edge Services. This product can be installed as a container within your firewall which polls your appliances for metrics and plots trends and helps identify misconfigured UAGs
+  projectimage: beach.jpg
+  imagestyle: hover-zoom--colorize
+  projecturl: https://github.com/parth33bank/UAGmon
+  newtab: target='_blank'
+
+- name: Automate Status Reporting
+  subtitle:
+  description: If you are someone that send Status Reports to multiple clients, this Product is for you. This is a word document with macros written that automatically generates an email for you to proof read and hit send! Simply edit and send - no more saving file as pdf or formatting your email to each sender.
+  projectimage: sunset.jpg
+  imagestyle: hover-zoom--brightness
+  projecturl: #
+  newtab:
+
+- name: About PK
+  subtitle: Design and Development
+  description: Built a Portfolio website using Jekyll and Github Pages. 0 cost web page to showcase your portfolio! Clone Github Project to build your own.
+  projectimage: bricks.jpg
+  imagestyle: hover-zoom--colorize
+  projecturl: https://github.com/parth33bank/about
+  newtab:

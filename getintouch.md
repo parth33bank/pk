@@ -1,9 +1,18 @@
 ---
-layout: default
-title: Partheeban Kandasamy
-description: Call me PK
+layout: contact
+title: Let's Collaborate
+description: A strong believer of WE > ME
+contactselected: selected
+bgurl: abstractflower.jpg
 ---
 
 ## [](#header-2)Contact Me
 
-[partheeban.kandasamy@gmail.com](mailto:Partheeban.Kandasamy@gmail.com?subject=Interested in your work)
+I go by P.K and I'm currently exploring roles in <b>Product Management</b>
+
+Get in touch for...
+
+Collab projects - Talking about tech or Product Management -
+Hiking - Working out - Website development - Design thinking -
+Diversity and Inclusion - Unconscious bias -
+Photography - Dogs - Friendly chat over a drink (or more)

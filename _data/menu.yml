@@ -1,0 +1,15 @@
+- name: Projects
+  description: All the Projects that I've been a part of
+  linkurl: projects
+
+- name: About
+  description: Me, Myself and I
+  linkurl: about
+
+- name: Contact
+  description: Get in touch
+  linkurl: getintouch
+
+- name: Blog
+  description: My thoughts
+  linkurl: wip
