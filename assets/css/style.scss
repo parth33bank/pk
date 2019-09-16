@@ -218,23 +218,32 @@ main {
 //Contacts and Socials
 // Team & About
 /* Three columns side by side */
+
+.contact-card {
+  max-width: 64rem;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .bg-img {
   /* The image used */
   background-image: url("/assets/images/about/profile.jpg");
   margin: 0 auto;
 
   /* Control the height of the image */
-  height: 30rem;
-  max-width: 64rem;
+  height: 34rem;
+  width: 60%;
 
   /* Center and scale the image nicely */
+  float: left;
   background-position-y: -100px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   transform: scale(1);
   transition: transform 1s, filter 2s ease-in-out;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content-container:hover .bg-img {
@@ -248,9 +257,11 @@ main {
 
 /* Some left and right padding inside the container */
 .detail-container {
+  position: relative;
+  height: 34rem;
   float: right;
-  height: inherit;
-  max-width: 400px;
+  //max-width: 400px;
+  width: 40%;
   padding: 2rem;
   background-color: white;
   text-align: center;
@@ -330,6 +341,7 @@ main {
 
 @media only screen and (max-width:768px) {
   .bg-img {
+    width: 100%;
     background-position-y: -50px;
     transform: scale(1);
     transition: transform 1s, filter 2s ease-in-out;
@@ -337,16 +349,11 @@ main {
   }
 
   .detail-container {
-      position: absolute;
-      bottom: 0;
-      left:0;
-      right:0;
-      height: 40%;
+      height: 100%;
       width: 100%;
       max-width: inherit;
       padding: 2rem;
-      margin: 30px 0 0 0;
-      float:none;
+      margin: -50px 0 0 0;
       text-align: center;
   }
 
