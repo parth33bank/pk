@@ -12,7 +12,7 @@ I go by P.K and I'm currently exploring roles in <b>Product Management</b>
 
 Get in touch for...
 
-Collab projects - Talking tech or Product Management topics -
-Hiking - Website development - Design thinking -
-Diversity and Inclusion - Unconscious bias - 
-Friendly chat over drink
+Collab projects - Talking about tech or Product Management -
+Hiking - Working out - Website development - Design thinking -
+Diversity and Inclusion - Unconscious bias -
+Photography - Dogs - Friendly chat over a drink (or more)
