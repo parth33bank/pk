@@ -8,7 +8,7 @@ bgurl: abstractflower.jpg
 
 ## [](#header-2)Contact Me
 
-I go by P.K and I'm currently exploring roles in <b>Product Management</b>
+I go by P.K
 
 Get in touch for...
 
