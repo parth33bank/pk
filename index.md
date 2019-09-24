@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Partheeban Kandasamy
-description: Expert Generalist, Quick Learner, Your Next Product Manager
+description: Expert Generalist, Quick Learner, Challenger of Status Quo
 defaultselected: selected
 bgurl: cloud.jpg
 ---
