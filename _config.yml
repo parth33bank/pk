@@ -1,2 +1,99 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: About PK
+email: partheeban.kandasamy@gmail.com
+authors: Partheeban Kandasamy
+show_downloads: false
+description: PK is an expert generalist, loves working with tech and people! 
+logo: pk-logo.png
+banner_main: assets/img/heroes/veba_banner_md.png
+banner_alt: assets/img/heroes/veba_otto_the_orca_md.png
+people: true
+people_limit: 12
+twitter: pkblah
+vm_logo: vm-logo.png
+gh_repo: https://github.com/pksrc/about
+repository: pksrc/about
 google_analytics: UA-141689937-1
+
+hero:
+  background-color: cornflower-blue
+footer:
+  title: Contact PK now! 
+  content: Reach out to PK for collaboration , new opportunities and design questions
+  cta_title: ''
+  cta_url: /kb/
+  cta_text: Documentation
+  vm-link: http://vmware.github.io/
+
+footer_social_links:
+  Twitter:
+    fa_icon: fab fa-twitter
+    url: https://twitter.com/pkblah
+  Email:
+    fa_icon: fas fa-envelope
+    url: mail:partheeban.kandasamy@gmail.com
+  GitHub:
+    fa_icon: fab fa-github
+    url: https://github.com/pksrc
+    
+collections:
+  - functions
+  - usecases
+
+page_gen:
+  - data: shortlinks
+    template: redirect
+    name: key
+    dir: docs
+
+versioning: false
+#latest: v0.3.0
+#versions:
+#- master
+#- v0.3.0
+#- v0.2.0
+
+# Build settings
+permalink: /blog/:title/
+sass:
+  sass_dir: assets/css
+  style: :compressed
+
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+cdn:
+  jquery:           "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  jquery_hash:      "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  popper:           "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  popper_hash:      "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+
+# Use the following plug-ins
+plugins:
+  - jekyll-readme-index # use README.md as index.html
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-relative-links # Used to auto generate md links to html links
+  - jekyll-optional-front-matter # Parse Markdown files that do not have front-matter callouts
+  - jekyll-titles-from-headings # pull the page title from the first Markdown heading when none is specified.
+  - jekyll-paginate # pagination object for collections (e.g. posts)
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# Include these subdirectories
+include:
+  - README.md
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README-JEKYLL.md
+  - LICENSE
+  - CNAME
+  - '*.sh'

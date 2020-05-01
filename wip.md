@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: simple
 title: Partheeban Kandasamy
 description: __under_construction__
 blogselected: selected

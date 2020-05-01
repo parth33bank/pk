@@ -1,0 +1,16 @@
+<script src="{{ site.cdn.jquery }}" integrity="{{ site.cdn.jquery_hash }}" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
+<script src="{{ site.baseurl }}/assets/js/vendor/popper.min.js"{% if site.github %} integrity="{{ site.cdn.popper_hash }}" crossorigin="anonymous"{% endif %}></script>
+
+{%- if site.github -%}
+  <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
+{%- else -%}
+  <script src="{{ site.baseurl }}/assets/js/bootstrap.js"></script>
+{%- endif -%}
+
+<script src="{{ '/assets/js/jquery.matchHeight.js' | relative_url}}?{{site.time | date: '%s%N'}}"></script>
+<script src="{{ '/assets/js/scripts.js' | relative_url}}?{{site.time | date: '%s%N'}}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+<script src="{{ '/assets/js/day-night.js' | relative_url}}?{{site.time | date: '%s%N'}}"></script>

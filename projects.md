@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: home
 title: What am I working on..
 description: Expert Generalist, Passionate about Tech
 projectsselected: selected

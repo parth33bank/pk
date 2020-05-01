@@ -1,5 +1,5 @@
 ---
-layout: contact
+layout: zcontact
 title: Let's Collaborate
 description: A strong believer of WE > ME
 contactselected: selected

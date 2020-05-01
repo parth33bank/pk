@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: examples
 title: Over 10 years in tech
 description: Unassuming go getter, Team player, Change agent
 aboutselected: selected

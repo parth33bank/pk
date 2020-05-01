@@ -1,17 +1,26 @@
-<div id="headline" class="headline">
-  <a href="/">
-  <span class="projectname emphasis">P</span>artheeban
-  <span class="projectname"> </span>
-  <span class="projectname emphasis">K</span>andasamy
-  </a>
-</div>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="{{ page.description | default: site.description | smartify }}">
+<meta name="author" content="{{ site.authors }}">
 
-<div id="menu" class="menu">
-  <a href="/" class="menuitem {{ page.defaultselected }}">Home</a>
-  <span class="seperator">.</span>
-  <a href="/projects" class="menuitem {{ page.projectsselected }}">Projects</a>
-  <span class="seperator">.</span>
-  <a href="/about" class="menuitem {{ page.aboutselected }}">About</a>
-  <span class="seperator">.</span>
-  <a href="/getintouch" class="menuitem {{ page.contactselected }}">Contact</a>
-</div>
+<title>
+  {%- if page.title -%}
+    {{ page.title | smartify }} · {{ site.title | smartify }}
+  {%- else -%}
+    {{ site.title | smartify }} · {{ site.description | smartify }}
+  {%- endif -%}
+</title>
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}{{site.time | date: '%s%N'}}">
+
+{% include favicons.html %}
+
+{% include social.html %}
+
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-141689937-1', 'about.pdotk.com');
+  ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
