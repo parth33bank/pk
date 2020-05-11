@@ -1,0 +1,32 @@
+
+<div class="alternating-cards">
+  {% for project in site.data.projects %}
+    <div class="row no-gutters align-items-center shadow">
+      {% if project.img %}
+      <div class="order-xs-first bash col-md-3 icon bg-color-{{ page.backgrounds.case_study }} {%  cycle('order-md-first', 'order-md-last') %}">
+        <img src="{{ '/assets/images/projects/' | append: project.img | relative_url }}" alt="{{ fn.title }}"/>
+        {% if project.external_url or size > 0 %}
+        <a class="card-link btn btn-secondary btn-sm" href="{{ project.external_url }}" target="_blank">{{ project.name }}</a>
+        {% elsif project.url or size > 0 %}
+        <a class="card-link btn btn-secondary btn-sm" href="{{ project.url | relative_url }}">{{ project.name }}</a>
+        {% else %}
+        {{ project.name }}
+        {% endif %}
+      </div>
+      {% endif %}
+      
+      <div class="order-xs-last col-md-9 {% cycle('order-md-last', 'order-md-first') %}">
+        <div class="card-body">
+          {% if fn.title != blank %}
+          <h5 class="card-title">{{ fn.title }}</h5>
+          {% endif %}
+          <p class="card-text">{{ fn.description | markdownify }}</p>
+          
+        </div>
+      </div>
+    </div>
+    {% if limit > 0 and forloop.index >= limit %}
+        {% break %}
+    {% endif %}
+  {% endfor %}
+</div>

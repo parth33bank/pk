@@ -1,0 +1,15 @@
+<div class="contact-container">
+  <div class="socials">
+    {% for link in site.social_links %}
+    <div class="row m-0 text-center">
+      <a class="{{ link[0] }}" href="{{ link[1].url }}" target="_blank" rel="noopener" aria-label="{{ link[0] }}">
+        {% if(link[1].fa_icon != false) %}
+        <i class="{{ link[1].fa_icon }} fa-lg"></i>
+        {% else %}
+        {{ link[0] }}
+        {% endif %}
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

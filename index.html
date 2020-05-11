@@ -1,0 +1,126 @@
+---
+layout: home
+id: home
+title: Partheeban Kandasamy
+description: Expert Generalist, Quick Learner, Challenger of Status Quo
+bgurl: cloud.jpg
+backgrounds:
+  case_study: cornflower-blue
+  team: dark-blue
+hero:
+  headline: Expert Generalist, Quick Learner, Challenger of Status Quo
+  content: A team player, loves learning new technology and passionate about building new Products and innovative solutions to everyday problems
+secondary_ctas:
+  cta1:
+    title: Have a question for PK? 
+    url: /kb
+    content: Talk about tech or Product Management, Website development, Design thinking
+  cta2:
+    title: Reach out to collaborate with PK
+    url: https://github.com/pksrc
+    content: Have an idea for Collaboration projects? Reach out! Let's chat!
+    
+---
+<div class="home-hero bg-color-{{ site.hero.background-color }}" style="background-image: url('{{ '/assets/images/about/' | append: page.bgurl | relative_url }}')">
+  <div class="section">
+    <div class="section-content">
+      <div class="row hero-bg shadow-sm mb-3">
+        <div class="hero-content col-md-8">
+          <h1 class="mb-2">{{ page.hero.headline }}</h1>
+          <p class="mb-1">{{ page.hero.content }}</p>
+        </div>
+        <div class="col-md-4">
+          {% include day-night.html%}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 pr-0">
+          <div class="hero-pk-mascot shadow-sm">
+            {% include contact.html %}
+            <img id="profile" src="{{ '/' | append: site.banner_main | relative_url}}"/>
+            <img id="profile-dark" src="{{ '/' | append: site.banner_alt | relative_url}}"/>
+          </div>
+        </div>
+        <div class="col-md-2 promo-cards">
+          {% for skill in site.data.skills %}
+          <div class="card card-light match-height shadow-sm">
+            <div class="card-body p-0 bash">
+              <figure>
+                <img src="{{ '/assets/images/skills/' | append: skill.img | relative_url }}" alt="{{ skill.name }}" />
+              </figure>
+              {% if project.external_url or size > 0 %}
+              <span><a href="{{ skill.external_url }}" target="_blank" class="dark">{{ skill.name }}</a></span>
+              {% elsif project.url or size > 0 %}
+              <span><a href="{{ skill.url | relative_url }}" class="dark">{{ skill.name }}</a></span>
+              {% else %}
+              <span>{{ skill.name }}</span>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+
+        <div class="col-md-7">
+          <div class="hero-cta shadow-sm">
+            <div class="container">
+              <div class="row">
+                <h3 class="col">Featured Posts</h3>
+                <div class="col">
+                  <a href="{{ '/posts' | relative_url}}" class="btn btn-dark btn-sm">See All Posts</a>
+                </div>
+              </div>
+              {% assign limit = 5 %}
+              {% include blog-posts.html %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- /home-hero -->
+
+<div class="section section-grey">
+  <div class="section-content">
+    <div class="row bg-grey">
+      <div class="col-sm-5 mb-3 mb-sm-0">
+        <h6 class="mb-1">
+          {% if page.secondary_ctas.cta1.external_url or size > 0 %}
+          <a href="{{ page.secondary_ctas.cta1.external_url }}" target="_blank">{{ page.secondary_ctas.cta1.title }}</a>
+          {% else %}
+          <a href="{{ page.secondary_ctas.cta1.url | relative_url }}">{{ page.secondary_ctas.cta1.title }}</a>
+          {% endif %}
+        </h6>
+        <p class="mb-0">{{ page.secondary_ctas.cta1.content }}</p>
+      </div>
+      <div class="col-sm-5 offset-sm-2">
+        <h6 class="mb-1">
+          {% if page.secondary_ctas.cta2.external_url  or size > 0 %}
+          <a href="{{ page.secondary_ctas.cta2.external_url }}" target="_blank">{{ page.secondary_ctas.cta2.title }}</a>
+          {% else %}
+          <a href="{{ page.secondary_ctas.cta2.url | relative_url }}">{{ page.secondary_ctas.cta2.title }}</a>
+          {% endif %}
+        </h6>
+        <p class="mb-0">{{ page.secondary_ctas.cta2.content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /secondary ctas -->
+
+<div class="section pt-0 pb-0">
+  <div class="section-content">
+    <div class="row">
+      <h2>Projects</h2>
+    </div>
+    {% assign limit = 5 %}
+    {% include projects-alternating.html %}
+    <div class="row pt-1 mb-4">
+      <div class="col text-center">
+        <a href="{{ '/examples' | relative_url}}" class="btn btn-secondary btn-sm">See All</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /showcase projects -->
