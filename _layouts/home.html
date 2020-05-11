@@ -4,13 +4,18 @@
     {% include header.html %}
   </head>
   <body id="{{ page.id }}">
-    {% include skippy.html %}
+    <div class="container-fluid site-outer-container">
+      <div class="site-container">
+        {% include skippy.html %}
 
-    {% include navbar.html %}
+        {% include navbar.html %}
 
-    {{ content }}
+        {{ content }}
 
-    {% include footer.html %}
-    {% include scripts.html %}
+        {% include footer.html %}
+        
+        {% include scripts.html %}
+      </div>
+    </div>
   </body>
 </html>

@@ -50,13 +50,14 @@ $container-max-width: 1440px;
 
 // Header
 
-$header-background: $white;
+$header-background: #f4fff3;
 $header-foreground: $black;
 $header-foreground-selected: $black;
 
 // Footer
-$footer-foreground: #808080;
-$footer-link-color: #474747;
+$footer-background: #f4fff3;
+$footer-foreground: #000;
+$footer-link-color: #000;
 $footer-copyright: $black;
 
 // Sections
@@ -69,13 +70,13 @@ $section-blue-foreground: $white;
 
 // Cards
 
-$card-dark-background: #0165AB;
+$card-dark-background: #63686d;
 $card-dark-foreground: $white;
 $card-dark-link: $white;
 $card-dark-link-hover: $white;
 
-$card-light-background: $white;
-$card-light-link: $link-color;
+$card-light-background: #787f86;
+$card-light-link: $white;
 
 // alternating cards
 $field-backgrounds: (

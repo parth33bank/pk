@@ -1,7 +1,15 @@
 .home-hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(100%) calc(15%); 
 
   @include media-breakpoint-up(md) {
-    min-height: 500px;  
+    min-height: 800px;  
+  }
+
+  .hero-bg {
+    background-color: #6c757da8;
+    margin: 0;
   }
 
   color: $white;
@@ -11,71 +19,88 @@
     color: $white;
     font-weight: $font-weight-light;
   }
+
+  h1 {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+  }
+  h3 {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+  }
+  .section {
+    padding: 10px 30px;
+
+  }
   .section-content {
-    margin-top: 15px;
+    margin-top: 10px;
     
-    .hero-content,
-    .hero-cta {       
+    .hero-content{       
+      padding-left: 15px;
       
+      h1 {
+        padding-top: 10px;
+      }
+    }
+
+    .hero-cta {
+      display: block;
+      padding: 10px;
+      background-color: #6c757d7d;
       
-      p {
-        @include media-breakpoint-up(md) {
-          width: 100% ! important;
+      @include media-breakpoint-up(md) { 
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+      }
+  
+      .btn {
+  
+        @include media-breakpoint-up(md) { 
+          min-width: 250px;
         }
-
-        @include media-breakpoint-down(md) {
-          width: 150% ! important;
+  
+        padding: {
+          top: 5px;
+          bottom: 5px;
         }
+      }
+  
+      h3 {
+        margin: auto 0;
+      }
+    }
 
-        @media only screen and (min-width: 900px) {
-          width: 100% ! important;
-        }
-
-        @include media-breakpoint-down(sm) {
-          width: 100% ! important;
+    &.section-card-offset-top {
+      .row {
+        margin-top: 20px;
+      }
+      .section-content {
+        @include media-breakpoint-up(lg) {
+          padding: {
+            left: 0;
+            right: 0;
+          }
         }
       }
     }
     
   }
 
-  .hero-veba-mascot {
-    
+  .hero-pk-mascot {
     overflow: hidden;
-    
-    
+    max-height: 750px;
+    margin-bottom: 10px;
+      
     img {
-      height: 100%;
-      width: 100%;
+      transform: translateX(-50px) translateY(-125px) ;
+    }
+    #profile-dark {
+      transform: translateX(-150px) translateY(-200px) scale(0.7);
     }
     @include media-breakpoint-down(sm) {
-      height: 1px;
+      display: none;
       background-image: none !important;
-    }
-  }
-
-  .hero-cta {
-    display: block;
-    margin-bottom: 70px;
-    
-    @include media-breakpoint-up(md) { 
-      display: flex;
-      flex-direction: row;
-      justify-content: left;
-    }
-
-    .btn {
-
-      @include media-breakpoint-up(md) { 
-        min-width: 250px;
-      }
-
-      padding: {
-        top: 16px;
-        bottom: 16px;
-      }
-
-      margin: 0 32px 0 0;
     }
   }
   
@@ -84,6 +109,29 @@
     .section-content {
       background-color: transparent;
       padding: 0;
+    }
+  }
+
+  .contact-container {
+    position: absolute;
+    left: -40px;
+    top: 50px;
+    //align-items: center;
+    //justify-content: flex-end;
+
+    .row {
+      padding: 0.5rem;
+      margin: 1rem;
+    }
+
+    .Twitter {
+      color:$blue;
+    }
+    .Github {
+      color:$black;
+    }
+    .Email {
+      color: darkcyan;
     }
   }
 }

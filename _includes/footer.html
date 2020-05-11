@@ -1,10 +1,41 @@
-<footer class="bd-footer text-muted">
-  <div class="container-fluid p-3 p-md-5">
-    <ul class="bd-footer-links">
-      <li><a href="{{ site.repo }}">GitHub</a></li>
-      <li><a href="https://twitter.com/{{site.twitter}}">Twitter</a></li>
-      <li><a href="{{ site.baseurl }}/examples/">Examples</a></li>
-      <li><a href="{{ site.baseurl }}/about/overview/">About</a></li>
-    </ul>
+<!--<div class="section p-1">
+  <div class="section-content">
+      <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-8">
+              <h5>{{ site.footer.title }}</h5>
+              <p>{{ site.footer.content }}</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-3 offset-lg-1">
+              <p><strong>{{ site.footer.cta_title }}</strong></p>
+              <a href="{{ site.footer.cta_url }}" class="btn btn-sm btn-primary btn-no-border">{{ site.footer.cta_text }}</a>
+          </div>
+      </div>
+  </div>
+</div>-->
+<div class="rainbow divider"></div>
+
+<footer class="section site-footer">
+
+  <div class="section-content">
+      <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-md-7 mb-3 mb-md-0">
+              <ul class="social-links text-center text-md-left">
+                  {% for link in site.social_links %}
+                  <li>
+                    {% if(link[1].fa_icon != false) %}
+                    <i class="{{ link[1].fa_icon }} fa-lg fa-fw mr-1"></i>
+                    {% endif %}
+                    <a href="{{ link[1].url }}" target="_blank">{{ link[0] }}</a></li>
+                  {% endfor %}
+              </ul>
+          </div>
+          <div class="col-12 col-md-5 text-center text-md-right">
+            <span class="copyright">
+              &copy; {{ site.time | date: '%Y' }} {{ site.author }}.
+              <a href="{{ site.footer.gh-link }}" target="_blank" class="pk-logo">A Passion project.</a>
+            </span>
+            <a href="/" aria-label="VEBA homepage"><img src="{{ '/assets/images/' | append: site.logo | relative_url }}" class="logo" alt="Homepage"/></a>
+          </div>
+      </div>
   </div>
 </footer>

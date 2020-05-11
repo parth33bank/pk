@@ -41,13 +41,12 @@ toNightAnimation
 }, duration)
 .to('#day-content', {duration: duration * 0.5, opacity: 0.5}, duration * 1.5)
 .to('body', {backgroundColor: '#656363', color: 'black', duration: duration * 2}, 0)
-.to('#otto', 0.1, {display:'none', autoAlpha: 0})
-.to('#otto-pride', 0.1 , {autoAlpha: 1, display:'block'})
+.to('#profile', 0.1, {display:'none', autoAlpha: 0})
+.to('#profile-dark', 0.1 , {autoAlpha: 1, display:'block'})
 .to('.hero-content h1', {color: 'black', duration: duration * 2}, 0)
 .to('.section', {color: 'black', duration: duration * 2}, 0)
 .to('.site-container', {backgroundColor: '#bbb', duration: duration * 2}, 0)
-.to('.promo-cards .section-content', {backgroundColor: '#bbb', duration: duration * 2}, 0)
-.to('footer', {backgroundColor: '#fff', duration: duration * 2}, 0)
+.to('.hero-cta h3', {color: 'black', duration: duration * 2}, 0)
 .to('.alternating-cards .row', {backgroundColor: '#fff', duration: duration * 2}, 0)
 
 let stars = Array.from(document.getElementsByClassName('star'));

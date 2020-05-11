@@ -2,33 +2,44 @@
 <html lang="en">
   <head>
     {% include header.html %}
+    {% if page.name != "README.md" %}
+    <title>{{ site.title }} Docs - {{page.title}}</title>
+    {% endif %}
   </head>
-  <body>
-    {% include skippy.html %}
+  <body id="blogs">
+    <div class="container-fluid site-outer-container">
+      <div class="site-container">
+        {% include blog-navbar.html %}
 
-    {% include docs-navbar.html %}
-
-    <div class="container-fluid">
-      <div class="row flex-xl-nowrap">
-        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
-          {% include docs-sidebar.html %}
+        <div class="section section-card featured bg-color-{{ site.hero.background-color }}">
+          <div class="container container-max">
+            <img class="{{ page.imagemode }} shadow-sm" src="{{ '/assets/images/blog/' | append: page.featuredimage | relative_url }}" alt="{{ post.title }}"/>
+          </div>
         </div>
 
-        {% if page.toc %}
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-            {{ content | toc_only }}
+        <div class="section section-card pt-4 pb-0">
+          <div class="container container-max">
+            <div class="row flex-lg-nowrap">
+              <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+                {% include blog-sidebar.html %}
+              </div>
+              <main class="col-12 col-md-9 col-xl-8 documentation-container" id="{{page.toc_id}}" role="main">
+                <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
+                <p class="bd-lead">{{ page.description | smartify }}</p>
+                {{ content | inject_anchors}}
+              </main>
+              {% if site.toc %}
+              <div class="d-none d-lg-block col-xl-2 toc" id="page-toc">
+                {% toc %}
+              </div>
+              {% endif %}
+            </div>
           </div>
-        {% endif %}
+        </div>
 
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-          <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
-          <p class="bd-lead">{{ page.description | smartify }}</p>
-          {% include ads.html %}
-          {{ content }}
-        </main>
+        {% include footer.html %}
       </div>
     </div>
-
     {% include scripts.html %}
   </body>
 </html>

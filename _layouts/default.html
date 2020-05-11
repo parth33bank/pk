@@ -4,19 +4,23 @@
     {% include header.html %}
   </head>
   <body>
-    {% include skippy.html %}
+    <div class="container-fluid site-outer-container">
+      <div class="site-container">
+        {% include skippy.html %}
 
-    {% include navbar.html %}
+        {% include navbar.html %}
 
-    {% if page.layout == "simple" or page.layout == "examples" %}
-      {{ content }}
-    {% else %}
-      <main id="content" role="main">
-        {{ content }}
-      </main>
-    {% endif %}
+        {% if page.layout == "simple" or page.layout == "examples" %}
+          {{ content }}
+        {% else %}
+          <main id="content" role="main">
+            {{ content }}
+          </main>
+        {% endif %}
 
-    {% include footer.html %}
-    {% include scripts.html %}
+        {% include footer.html %}
+        {% include scripts.html %}
+      </div>
+    </div>
   </body>
 </html>

@@ -1,31 +1,39 @@
+- name: VMware Event Broker Appliance
+  title: Unlocking the Hidden Potential of Events in the VMware SDDC
+  description: Use event-driven automation and take your vSphere Events to the next level! Easily trigger custom or pre-built actions to deliver powerful integrations within your datacenter but also across public cloud services. Integrations like Slack, Pager Duty, Service Now, etc. has never been easier before. 
+  img: stones.jpg
+  img_style: hover-zoom--blur
+  external_url: https://vmweventbroker.io
+  newtab:
+  
 - name: Work Insights
-  subtitle: We aim to make your employees your biggest differentiator
-  description: Our product integrates with existing datasource to capture various employee metrics and uses machine learning to find trends, anomalies which helps HRs and Managers to visualise employee engagement and sentiment while getting proactive recommendations to improve company culture and management style which leads to better retention and employee experience.
-  projectimage: stones.jpg
-  imagestyle: hover-zoom--blur
-  projecturl: #
+  title: We aim to make your employees your biggest differentiator
+  description: Our product integrates with existing data sources to capture various employee metrics and uses machine learning to find trends, anomalies which helps HRs and Managers to visualise employee engagement and sentiment while getting proactive recommendations to improve company culture and management style which leads to better retention and employee experience.
+  img: mountain.jpg
+  img_style: hover-zoom--blur
+  url: \#projects
   newtab:
 
-- name: UAG Monitor (WIP)
-  subtitle: All inclusive web-app to manage UAGs
+- name: UAG Manager (WIP)
+  title: All inclusive web-app to manage UAGs
   description: An aggregated view of various metrics that help an Admin manage multiple VMware UAG appliances configured for Edge Services. This product can be installed as a container within your firewall which polls your appliances for metrics and plots trends and helps identify misconfigured UAGs
-  projectimage: beach.jpg
-  imagestyle: hover-zoom--colorize
-  projecturl: https://github.com/parth33bank/UAGmon
+  img: beach.jpg
+  img_style: hover-zoom--colorize
+  external_url: https://github.com/pksrc/UAGmgr
   newtab: target='_blank'
 
 - name: Automate Status Reporting
-  subtitle:
+  title:
   description: If you are someone that send Status Reports to multiple clients, this Product is for you. This is a word document with macros written that automatically generates an email for you to proof read and hit send! Simply edit and send - no more saving file as pdf or formatting your email to each sender.
-  projectimage: sunset.jpg
-  imagestyle: hover-zoom--brightness
-  projecturl: #
+  img: sunset.jpg
+  img_style: hover-zoom--brightness
+  url: \#projects
   newtab:
 
 - name: About PK
-  subtitle: Design and Development
+  title: Design and Development
   description: Built a Portfolio website using Jekyll and Github Pages. 0 cost web page to showcase your portfolio! Clone Github Project to build your own.
-  projectimage: bricks.jpg
-  imagestyle: hover-zoom--colorize
-  projecturl: https://github.com/parth33bank/about
+  img: bricks.jpg
+  img_style: hover-zoom--colorize
+  external_url: https://github.com/pksrc/about
   newtab:

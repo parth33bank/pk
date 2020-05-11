@@ -1,18 +1,18 @@
 # Site settings
 title: About PK
-email: partheeban.kandasamy@gmail.com
 authors: Partheeban Kandasamy
 show_downloads: false
 description: PK is an expert generalist, loves working with tech and people! 
 logo: pk-logo.png
-banner_main: assets/img/heroes/veba_banner_md.png
-banner_alt: assets/img/heroes/veba_otto_the_orca_md.png
+banner_main: assets/images/about/profile.jpg
+banner_alt: assets/images/about/ironman.jpeg
 people: true
 people_limit: 12
 twitter: pkblah
-vm_logo: vm-logo.png
-gh_repo: https://github.com/pksrc/about
+email: partheeban.kandasamy@gmail.com
 repository: pksrc/about
+gh_repo: https://github.com/pksrc/about
+
 google_analytics: UA-141689937-1
 
 hero:
@@ -23,28 +23,22 @@ footer:
   cta_title: ''
   cta_url: /kb/
   cta_text: Documentation
-  vm-link: http://vmware.github.io/
+  gh-link: http://github.com/pksrc
 
-footer_social_links:
+social_links:
+  GitHub:
+    fa_icon: fab fa-github
+    url: https://github.com/pksrc
   Twitter:
     fa_icon: fab fa-twitter
     url: https://twitter.com/pkblah
   Email:
     fa_icon: fas fa-envelope
-    url: mail:partheeban.kandasamy@gmail.com
-  GitHub:
-    fa_icon: fab fa-github
-    url: https://github.com/pksrc
+    url: mailto:partheeban.kandasamy@gmail.com
     
 collections:
   - functions
   - usecases
-
-page_gen:
-  - data: shortlinks
-    template: redirect
-    name: key
-    dir: docs
 
 versioning: false
 #latest: v0.3.0
@@ -83,7 +77,7 @@ plugins:
   - jekyll-paginate # pagination object for collections (e.g. posts)
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-github-metadata
+  - jekyll-toc
 
 # Include these subdirectories
 include:

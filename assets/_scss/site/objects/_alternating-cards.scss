@@ -4,16 +4,17 @@
     margin-bottom: 20px;
   }
   .icon {
-    min-height: 120px;
+    min-height: 200px;
     background: cornflowerblue; // default
     text-align: center;
     
     img {
-      height: 50px;
+      width: 100%;
+      height: auto;
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -75%);
+      transform: translate(-50%, -60%);
     }
     a {
       position: absolute;
@@ -25,6 +26,7 @@
       border-radius: 0%;
     }
   }
+
   .card-body {
     padding: 0rem;
     margin: 1rem;
