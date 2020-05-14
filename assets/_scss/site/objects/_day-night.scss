@@ -1,19 +1,21 @@
-.day-night {
-    padding: 10px 0;
+.day-night-hero {
     font-weight: 500;
+    font-size: $font-size-sm;
+    .row {
+        padding: 5px 0 0 0;
+        margin-left: -15px;
+        margin-right: 30px;
 
-    p {
-        margin: auto 0;
+        .text-right {
+            //padding-left: 0;
+        }
+        .text-left {
+            //margin-right: 10px;
+        }
     }
-
+    
     span {
-        padding: 7.5px 0;
-        height: 50px;
-        width: 100%
-    }
-
-    label {
-        margin: auto 0;
+        padding: 5px 0;
     }
 
     .day-label {
@@ -22,12 +24,13 @@
     }
 
     .night-label {
-        opacity: 0.6;
+        opacity: 0.7;
         font-weight: bold;
         text-shadow: 2px 0px #000;
     }
 
     .container {
+        margin: auto 0;
         width: 70px;
     }
 
@@ -62,9 +65,9 @@
 
 .day-night-nav {
     position: absolute;
+    top: 10px;
+    left: 200px;
     width: 300px;
-    right: -300px;
-    top: 7px;
     margin: auto 0;
     font-weight: 500;
 

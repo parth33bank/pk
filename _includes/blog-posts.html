@@ -2,11 +2,7 @@
 <div class="blog-cards">
     {% for post in site.posts %}
     <div class="no-gutters align-items-center shadow-sm">
-        {% if post.external_url or size > 0 %}
-        <a href="{{ post.external_url }}" target="_blank" class="row">
-        {% elsif post.url or size > 0 %}
-        <a href="{{ post.url | relative_url}}" class="row">
-        {% endif %}
+        <div class="row">
             {% if post.featuredimage %}
             <div class="bash order-xs-first col-md-3 icon bg-color-{{ page.backgrounds.case_study }} {%  cycle('order-md-first', 'order-md-last') %}">
                 <img class="{{ post.imagemode }}" src="{{ '/assets/images/blog/' | append: post.featuredimage | relative_url }}" alt="{{ post.title }}"/>
@@ -16,12 +12,21 @@
             <div class="order-xs-last col-md-9 {% cycle('order-md-last', 'order-md-first') %}">
                 <div class="card-body">
                     {% if post.title != blank %}
-                    <span class="card-title">{{ post.title }}</span>
+                    <span class="card-title">
+                        {% if post.external_url or size > 0 %}
+                        <a href="{{ post.external_url }}" target="_blank">
+                        {% elsif post.url or size > 0 %}
+                        <a href="{{ post.url | relative_url}}">
+                        {% endif %}
+                        {{ post.title }}
+                        </a>
+                    </span>
                     {% endif %}
+                    
                     <p class="card-text">{{ post.excerpt | strip_html }}</p>
                 </div>
             </div>
-        </a> 
+        </div> 
     </div>
     {% if limit > 0 and forloop.index >= limit %}
         {% break %}

@@ -7,9 +7,12 @@
     min-height: 800px;  
   }
 
-  .hero-bg {
-    background-color: #6c757da8;
-    margin: 0;
+  .hero-bg-slate {
+    background-image: radial-gradient(
+      #3e3e3ec2, #ffffffc2 120%
+      );
+    position: sticky;
+    top: 100px;
   }
 
   color: $white;
@@ -43,34 +46,6 @@
       }
     }
 
-    .hero-cta {
-      display: block;
-      padding: 10px;
-      background-color: #6c757d7d;
-      
-      @include media-breakpoint-up(md) { 
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-      }
-  
-      .btn {
-  
-        @include media-breakpoint-up(md) { 
-          min-width: 250px;
-        }
-  
-        padding: {
-          top: 5px;
-          bottom: 5px;
-        }
-      }
-  
-      h3 {
-        margin: auto 0;
-      }
-    }
-
     &.section-card-offset-top {
       .row {
         margin-top: 20px;
@@ -87,13 +62,44 @@
     
   }
 
+  .hero-cta {
+    display: block;
+    background-image: radial-gradient(
+      #3e3e3e, #ffffffc2 120%
+    );
+    
+    @include media-breakpoint-up(md) { 
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+    }
+
+    .btn {
+
+      @include media-breakpoint-up(md) { 
+        min-width: 250px;
+      }
+
+      padding: {
+        top: 5px;
+        bottom: 5px;
+      }
+    }
+
+    h3 {
+      width: 100%;
+    }
+    h3:first-child {
+      margin-top: 1rem;
+    }
+  }
+
   .hero-pk-mascot {
     overflow: hidden;
-    max-height: 750px;
-    margin-bottom: 10px;
+    max-height: 780px;
       
     img {
-      transform: translateX(-50px) translateY(-125px) ;
+      transform: translateX(-15px) translateY(-125px) ;
     }
     #profile-dark {
       transform: translateX(-150px) translateY(-200px) scale(0.7);
@@ -114,24 +120,27 @@
 
   .contact-container {
     position: absolute;
-    left: -40px;
-    top: 50px;
-    //align-items: center;
-    //justify-content: flex-end;
+    left: -75px;
+    top: 75px;
 
     .row {
-      padding: 0.5rem;
-      margin: 1rem;
+      padding: auto 0rem;
+      margin: auto 0.5rem;
     }
 
-    .Twitter {
-      color:$blue;
-    }
-    .Github {
-      color:$black;
-    }
-    .Email {
-      color: darkcyan;
+    a {
+      padding: 10px 10px 5px 10px;
+      text-align: center;
+      align-items: center;
+      .Twitter {
+        color:$blue;
+      }
+      .Github {
+        color:$black;
+      }
+      .Email {
+        color: darkcyan;
+      }
     }
   }
 }

@@ -1,0 +1,63 @@
+
+<div class="experience-cards">
+    <h1>Experience</h1>
+    <h3>{{site.data.experience.summary | markdownify}}</h3>
+    {% for job in site.data.experience.jobs %}
+    <div class="no-gutters align-items-center shadow-sm">
+        <div class="row">
+            <div class="order-xs-first col-md-10">
+                <div class="card-body">
+                    <span class="card-title">
+                       {{ job.title | markdownify}}
+                       <small>{{ job.duration | markdownify}}</small>
+                    </span>
+                </div>
+            </div>
+            {% if job.img %}
+            <div class="order-xs-last col-md-2 icon">
+                <img class="{{ job.imagemode }}" src="{{ '/assets/images/experience/' | append: job.img | relative_url }}" alt="{{ job.title }}"/>
+            </div>
+            {% endif %}
+            <div class="card-text">
+                {{ job.description | markdownify }}
+                <ul>
+                {% for line in job.stars %}
+                    <li>
+                    {{line | markdownify}}
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div> 
+    </div>
+    {% if limit > 0 and forloop.index >= limit %}
+        {% break %}
+    {% endif %}
+    {% endfor %}
+</div>
+<div class="credentials-cards">
+    <h1>CREDENTIALS</h1>
+    <div class="no-gutters align-items-center shadow-sm">
+        <div class="row">
+        {% for edu in site.data.experience.education %}
+            <div class="col-md-10">
+                <div class="card-body">
+                    <span class="card-title">
+                        {{ edu.what }}
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-2 text-right">
+                <div class="card-body">
+                    <span class="card-text">
+                        {{ edu.when }}
+                    </span>
+                </div>
+            </div>
+        {% if limit > 0 and forloop.index >= limit %}
+            {% break %}
+        {% endif %}
+        {% endfor %}
+        </div> 
+    </div>
+</div>

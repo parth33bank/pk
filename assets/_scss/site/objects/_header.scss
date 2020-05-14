@@ -3,6 +3,7 @@
   position: -webkit-sticky;
   top: 0px;
   background: $header-background;
+  height: 60px;
   z-index: 5;
 
   .site-header-content {
@@ -30,7 +31,7 @@
   .nav-mobile-link {
     display: none;
     position: absolute;
-    top: 50%;
+    top: 25px;
     right: 30px;
     margin-top: -6px;
 
@@ -117,7 +118,7 @@
 
 #header-rainbow {
   position: -webkit-sticky;
-  top: 57px;
+  top: 60px;
   position: sticky;
   z-index: 4;
 }

@@ -11,28 +11,32 @@
       <div class="site-container">
         {% include blog-navbar.html %}
 
-        <div class="section section-card featured bg-color-{{ site.hero.background-color }}">
-          <div class="container container-max">
-            <img class="{{ page.imagemode }} shadow-sm" src="{{ '/assets/images/blog/' | append: page.featuredimage | relative_url }}" alt="{{ post.title }}"/>
-          </div>
-        </div>
-
         <div class="section section-card pt-4 pb-0">
           <div class="container container-max">
             <div class="row flex-lg-nowrap">
-              <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
-                {% include blog-sidebar.html %}
+              <div class="d-none d-md-block col-md-2 col-xl-2 bd-sidebar mr-0">
+                <div class="toc">
+                  <h3>Table of Contents</h3>
+                  {% if page.toc %}
+                      {% toc %}
+                  {% endif %}
+                </div>
               </div>
-              <main class="col-12 col-md-9 col-xl-8 documentation-container" id="{{page.toc_id}}" role="main">
+              
+              <main class="col-12 col-md-8 col-xl-8 blog-container" id="{{page.toc_id}}" role="main">
+                <div class="row flex-lg-nowrap d-flex justify-content-center">
+                  <div class="d-none d-md-block col featured">
+                    <img class="{{ page.imagemode }} shadow" src="{{ '/assets/images/blog/' | append: page.featuredimage | relative_url }}" alt="{{ post.title }}"/>
+                  </div>
+                </div>
                 <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
                 <p class="bd-lead">{{ page.description | smartify }}</p>
                 {{ content | inject_anchors}}
               </main>
-              {% if site.toc %}
-              <div class="d-none d-lg-block col-xl-2 toc" id="page-toc">
-                {% toc %}
+
+              <div class="d-none d-md-block col-md-2 col-xl-2 bd-sidebar ml-0">
+                {% include blog-posts-nav.html %}
               </div>
-              {% endif %}
             </div>
           </div>
         </div>

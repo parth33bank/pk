@@ -25,7 +25,7 @@ toNightAnimation
 	x: 1,
 	transformOrigin: '100% 50%',
 }, 0)
-.to('.day-label', {duration: duration * 2, ease: 'power2.inOut', opacity: 0.6}, 0)
+.to('.day-label', {duration: duration * 2, ease: 'power2.inOut', opacity: 0.7}, 0)
 .to('.night-label', {duration: duration * 2, ease: 'power2.inOut', opacity: 1}, 0)
 .set('#circle', {
 	// transformOrigin: '0% 50%',
@@ -43,10 +43,10 @@ toNightAnimation
 .to('body', {backgroundColor: '#656363', color: 'black', duration: duration * 2}, 0)
 .to('#profile', 0.1, {display:'none', autoAlpha: 0})
 .to('#profile-dark', 0.1 , {autoAlpha: 1, display:'block'})
-.to('.hero-content h1', {color: 'black', duration: duration * 2}, 0)
 .to('.section', {color: 'black', duration: duration * 2}, 0)
 .to('.site-container', {backgroundColor: '#bbb', duration: duration * 2}, 0)
-.to('.hero-cta h3', {color: 'black', duration: duration * 2}, 0)
+.to('.hero-bg-slate h1, .hero-head h1, h3', {color: 'black', duration: duration * 2}, 0)
+.to('.hero-cta h1,p, .card-body', {color: 'black', duration: duration * 2}, 0)
 .to('.alternating-cards .row', {backgroundColor: '#fff', duration: duration * 2}, 0)
 
 let stars = Array.from(document.getElementsByClassName('star'));
