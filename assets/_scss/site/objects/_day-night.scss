@@ -1,6 +1,26 @@
 .day-night-hero {
     font-weight: 500;
     font-size: $font-size-sm;
+
+    @include media-breakpoint-down(md) {
+        .row{
+            margin-right:0px !important;
+          
+            .text-right {
+                text-align: center !important;
+                margin-bottom: 5px !important;
+            }
+            .text-left {
+            text-align: center !important;
+            }
+        }
+        label
+        {	
+            width: 100% !important;
+            margin: 0 auto;
+        }
+    }
+
     .row {
         padding: 5px 0 0 0;
         margin-left: -15px;
